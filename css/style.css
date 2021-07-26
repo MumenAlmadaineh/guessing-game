@@ -1,0 +1,22 @@
+body {
+    background-color: #ECEFF1;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: blueviolet;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: cadetblue;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
