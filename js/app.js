@@ -6,10 +6,12 @@ let doIknowPrograming = prompt('Hello again ' + userName + ' this is a beautiful
 
 switch(doIknowPrograming) {
 case 'yes':
+case 'y':
   alert('That is right of course, I am known programming because I am who is built this web page');
   //console.log('right answer');
   break;
 case 'no':
+case 'n':
   alert('No, your answer is wrong because if I did not know to programming then I cannot build this web page');
 
   break;
@@ -21,10 +23,12 @@ let amIAlien = prompt('Thanks ' + userName + '  Now question number two Do you t
 
 switch(amIAlien) {
 case 'yes':
+case 'y':
   alert('No, your answer is wrong actually science has not yet proven the existence of aliens');
   //console.log('right answer');
   break;
 case 'no':
+case 'n':
   alert('Certainly, I am human, science has not yet proven the existence of aliens');
 
   break;
@@ -36,10 +40,12 @@ let doIlikeFood = prompt('Good for now ' + userName + ' please answer question n
 
 switch(doIlikeFood) {
 case 'yes':
+case 'y':
   alert('That is right of course, everybody likes food');
   //console.log('right answer');
   break;
 case 'no':
+case 'n':
   alert('Unfortunately, your answer is wrong all people like food');
 
   break;
@@ -51,10 +57,12 @@ let doIknowCars = prompt(' now ' + userName + ' question number four Do I know c
 
 switch(doIknowCars) {
 case 'yes':
+case 'y':
   alert('Yes your answer is right of course all people know cars');
   //console.log('right answer');
   break;
 case 'no':
+case 'n':
   alert('Unfortunately, your answer is wrong really Do you think is there a person do not know cars');
 
   break;
@@ -66,10 +74,12 @@ let doIknowEnglish = prompt('Yes, I know question number four was a stupid quest
 
 switch(doIknowEnglish) {
 case 'yes':
+case 'y':
   alert('Yes your answer is right of course, I know English because I am who is typing these questions');
   //console.log('right answer');
   break;
 case 'no':
+case 'n':
   alert('Unfortunately, your answer is wrong because if I do not know English then how I can typing these questions');
 
 
