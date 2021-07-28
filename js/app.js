@@ -1,12 +1,14 @@
 'use strict';
 
-
-let userName = prompt('Hello and welcome to my website the first list takes a game to try guessing who I am by five questions and please answer the questions by typing yes or no for now please enter your name bellow');
-while (!userName){
-  userName = prompt('You cannot enter here without enter your name so please enter your name');
+function getUserName(){
+  let userName = prompt('Hello and welcome to my website the first list takes a game to try guessing who I am by five questions and please answer the questions by typing yes or no for now please enter your name bellow');
+  while (!userName){
+    userName = prompt('You cannot enter here without enter your name so please enter your name');
+  }
+  return userName;
 }
 
-
+let userName = getUserName();
 
 let score = 0;
 
