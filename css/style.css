@@ -23,6 +23,13 @@ body {
 
 }
 
+#secondaryStyle1{
+    color: #E65100;
+    padding-top: 1px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    padding-left: 65px;}
+
 
 p{
     margin-top: 70px;
@@ -62,4 +69,22 @@ section {
 
 img {
     margin: 100px;
+}
+
+.navStyle {
+    display: inline-block;
+
+}
+
+header ul li{
+  display: inline-block;
+  float: right;
+    margin-right: 10px;
+    border-style: outset outset outset outset;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-width: medium;
+    border-color: #80CBC4;
+    background-color: #EDF6E5;
+
 }
