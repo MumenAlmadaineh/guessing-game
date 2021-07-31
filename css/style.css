@@ -71,13 +71,7 @@ img {
     margin: 100px;
 }
 
-.navStyle {
-    display: inline-block;
-
-}
-
 header ul li{
-  display: inline-block;
   float: right;
     margin-right: 10px;
     border-style: outset outset outset outset;
