@@ -20,7 +20,6 @@ function getDoIknowProgramingQuestion(){
   case 'y':
     alert('That is right of course, I am known programming because I am who is built this web page');
     score++;
-    //console.log('right answer');
     break;
   case 'no':
   case 'n':
@@ -41,7 +40,6 @@ function getAmIAlienQuestion(){
   case 'y':
     alert('No, your answer is wrong actually science has not yet proven the existence of aliens');
     score++;
-    //console.log('right answer');
     break;
   case 'no':
   case 'n':
@@ -63,7 +61,6 @@ function getDoIlikeFoodQuestion(){
   case 'y':
     alert('That is right of course, everybody likes food');
     score++;
-    //console.log('right answer');
     break;
   case 'no':
   case 'n':
@@ -85,7 +82,6 @@ function getDoIknowCarsQuestion(){
   case 'y':
     alert('Yes your answer is right of course all people know cars');
     score++;
-    //console.log('right answer');
     break;
   case 'no':
   case 'n':
@@ -107,7 +103,6 @@ function getDoIknowEnglishQuestion(){
   case 'y':
     alert('Yes your answer is right of course, I know English because I am who is typing these questions');
     score++;
-    //console.log('right answer');
     break;
   case 'no':
   case 'n':
@@ -129,12 +124,10 @@ function getGuessNumberQuestion(){
     if (guessNumber === myNumber){
       alert('Oh, cool you are guessed the number');
       score++;
-      // console.log(guessNumber);
       break;
     }
     else if (guessNumber < myNumber){
       alert('too low');
-      // console.log(guessNumber);
       guessNumber = Number (prompt(`Now ${userName} try to guess a number between 1 to 5 and remember you have just 4 attempts`));
     }else if (guessNumber > myNumber){
       alert('too high');
@@ -156,12 +149,11 @@ function getMyFavProLunQuestion(){
     if (whatMyFavproLun === 'Java' || whatMyFavproLun === 'JavaScript' || whatMyFavproLun === 'Kotlin' || whatMyFavproLun === 'C++') {
       alert('Oh, cool you are guessed my favorite programming language');
       score++;
-      // console.log(whatMyFavproLun);
       break;
     }
     else if (whatMyFavproLun !== 'Java' || whatMyFavproLun !== 'JavaScript' || whatMyFavproLun !== 'Kotlin' || whatMyFavproLun !== 'C++') {
       whatMyFavproLun = prompt(`Try again ${userName} and remember you have just 6 attempts `);
-      // console.log(whatMyFavproLun);
+
     }
   }
 
@@ -174,36 +166,3 @@ getMyFavProLunQuestion();
 alert('Congratulation now you are finished all questions thanks a lot for your time with us I hope you have a good time');
 
 alert (`Thanks at all ${userName} your score is: ${score} from 7`);
-
-
-// let score = 0;
-
-// if (doIknowPrograming === 'yes' || doIknowPrograming === 'y'){
-//   score = score + 1;
-// }
-
-// if (amIAlien === 'no' || amIAlien === 'n')
-
-//   if (doIlikeFood === 'yes' || doIlikeFood === 'y'){
-//     score = score + 1;
-//   }
-
-// if (doIknowCars === 'yes' || doIknowCars === 'y'){
-//   score = score + 1;
-// }
-
-// if (doIlikeFood === 'yes' || doIlikeFood === 'y'){
-//   score = score + 1;
-// }
-
-// if (doIknowEnglish === 'yes' || doIknowEnglish === 'y'){
-//   score = score + 1;
-// }
-
-// if (guessNumber === 3){
-//   score = score + 1;
-// }
-
-// if (whatMyFavproLun === 'Java' || whatMyFavproLun === 'JavaScript' || whatMyFavproLun === 'Kotlin' || whatMyFavproLun === 'C++'){
-//   score = score + 1;
-// }
